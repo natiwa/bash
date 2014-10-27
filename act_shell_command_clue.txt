@@ -6,6 +6,11 @@ ls
     -l
     -lh
     -lah
+cp
+mv
+rm
+    -r
+    -f
 cat
 head
     -n
@@ -48,14 +53,7 @@ PIPES
 2>
 2>&1
     something 2>&1 > /dev/null
-<
-<<
-    cat << EOF > bla
-    1
-    2
-    3
-    4
-    EOF
+tee
 mkfifo
 
 SYSTEM
@@ -146,7 +144,7 @@ vi
     :!q
     :wq
     :x
-    :set mouse:a
+    :set mouse=a
     :set nu
     
 crontab
