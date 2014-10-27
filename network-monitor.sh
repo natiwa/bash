@@ -14,5 +14,6 @@ DELTA_TX=$(( $CURRENT_TX - $PREV_TX ))
 RX_PER_SEC=$(( $DELTA_RX / 5 ))
 TX_PER_SEC=$(( $DELTA_TX / 5 ))
 
+# in e out de rede nos ultimos 5 segundos
 echo $RX_PER_SEC
 echo $TX_PER_SEC
