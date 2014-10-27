@@ -139,3 +139,19 @@ $*
 if
 for
 while
+
+TIPS
+
+vi
+    :q
+    :!q
+    :wq
+    :x
+    :set mouse:a
+    :set nu
+    
+crontab
+    -l
+    -e
+
+    
