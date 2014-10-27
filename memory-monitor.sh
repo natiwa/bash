@@ -2,6 +2,7 @@
 
 THRESHOLD=$1
 
+# memoria livre abaixo de um limite
 while :; do
     FREE_MEM_FIELDS=$(vmstat -S M 1 2 | tail -1 | awk '{print $4,$5,$6}')
     IFS=' ' read -a FIELDS <<< "$FREE_MEM_FIELDS"
